@@ -1,5 +1,7 @@
 # BGPVR Player for Linux
 
+[![bgpvr-player](https://snapcraft.io/bgpvr-player/badge.svg)](https://snapcraft.io/bgpvr-player)
+
 Downloads of BGPVR Player for Linux (.deb and AppImage). Software only: the app shows the TV service of your own
 provider and brings no TV channels or content. Builds only: the app's source code is not published here. The source of
 the open-source libraries inside the app (LGPL) is published next to each release.
@@ -45,3 +47,7 @@ Casting, recording to the device, picture-in-picture and push messages are not i
 Older builds stay on the [Releases](https://github.com/bgpvr/linux/releases) page.
 
 BGPVR Player is made by BGPVR Software. Linux is a registered trademark of Linus Torvalds.
+
+## Snap Store (beta)
+
+    sudo snap install bgpvr-player --beta
