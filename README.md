@@ -21,19 +21,19 @@ sudo apt update && sudo apt install bgpvr-player
 
 Signing key fingerprint: `EAB6 9BB9 68DF 78FA 7494 581F 31DF 41E0 3FFF D9E9`. Remove: `sudo apt remove bgpvr-player`.
 
-## 1.9.6.4-10
+## 1.9.6.5-11
 
 | File | For |
 |---|---|
-| [bgpvr-player-linux-1.9.6.4-10-x86_64.deb](https://github.com/bgpvr/linux/releases/download/v1.9.6.4-10/bgpvr-player-linux-1.9.6.4-10-x86_64.deb) | Ubuntu 22.04, 24.04 and newer, Linux Mint, Pop!_OS (x86_64) |
-| [bgpvr-player-linux-1.9.6.4-10-x86_64.AppImage](https://github.com/bgpvr/linux/releases/download/v1.9.6.4-10/bgpvr-player-linux-1.9.6.4-10-x86_64.AppImage) | Other 64-bit (x86_64) Linux with glibc 2.35 or newer |
-| [bgpvr-player-linux-1.9.6.4-10-lgpl-sources.tar](https://github.com/bgpvr/linux/releases/download/v1.9.6.4-10/bgpvr-player-linux-1.9.6.4-10-lgpl-sources.tar) | The source of the LGPL libraries in this release (FFmpeg, mpv, libplacebo …) and how to rebuild and replace them |
+| [bgpvr-player-linux-1.9.6.5-11-x86_64.deb](https://github.com/bgpvr/linux/releases/download/v1.9.6.5-11/bgpvr-player-linux-1.9.6.5-11-x86_64.deb) | Ubuntu 22.04, 24.04 and newer, Linux Mint, Pop!_OS (x86_64) |
+| [bgpvr-player-linux-1.9.6.5-11-x86_64.AppImage](https://github.com/bgpvr/linux/releases/download/v1.9.6.5-11/bgpvr-player-linux-1.9.6.5-11-x86_64.AppImage) | Other 64-bit (x86_64) Linux with glibc 2.35 or newer |
+| [bgpvr-player-linux-1.9.6.5-11-lgpl-sources.tar](https://github.com/bgpvr/linux/releases/download/v1.9.6.5-11/bgpvr-player-linux-1.9.6.5-11-lgpl-sources.tar) | The source of the LGPL libraries in this release (FFmpeg, mpv, libplacebo …) and how to rebuild and replace them |
 
 Install by hand:
 
-- **.deb**: `sudo apt install ./bgpvr-player-linux-1.9.6.4-10-x86_64.deb`, then open **BGPVR Player** from the menu
+- **.deb**: `sudo apt install ./bgpvr-player-linux-1.9.6.5-11-x86_64.deb`, then open **BGPVR Player** from the menu
   (the menu entry also has **Start in TV mode**). The .deb brings its own libmpv and FFmpeg in /opt/bgpvr-player.
-- **AppImage**: `chmod +x bgpvr-player-linux-1.9.6.4-10-x86_64.AppImage`, then open it. If it asks for libfuse.so.2:
+- **AppImage**: `chmod +x bgpvr-player-linux-1.9.6.5-11-x86_64.AppImage`, then open it. If it asks for libfuse.so.2:
   `sudo apt install libfuse2` (22.04) or `libfuse2t64` (24.04 and newer).
 
 Check the download: `sha256sum -c SHA256SUMS --ignore-missing`.
